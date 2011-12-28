@@ -5,10 +5,12 @@ plugins:
 
     - name: 'Example'
       path: './plugins/siriproxy-example'
+ 
+    - name: 'Facebook'
+      git: 'git://github.com/shabbirv/SiriProxy-Facebookstatus.git'
+      access_token: 'YOUR_ACCESS_TOKEN' 
+      username: 'YOUR_FACEBOOK_USERNAME'
 
-    # - name: 'Thermostat'
-    #   git: 'git://github.com/plamoni/SiriProxy-Thermostat.git'
-    #   host: '192.168.2.71' 
 
     # - name: 'Twitter'
     #   path: './plugins/siriproxy-twitter' # path works just like specifing in gemfile 
